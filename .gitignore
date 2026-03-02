@@ -1,1 +1,21 @@
-.\data
+# Data (raw + processed)
+elec-70127-fno/
+elec-70127-fno.zip
+working/
+
+# Model weights & run outputs
+runs/
+*.pth
+pred_1.npy
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
